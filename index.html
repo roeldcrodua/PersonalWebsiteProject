@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">  
+    <meta name="milestone" content="Portfolio">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&family=Style+Script&display=swap" rel="stylesheet">
+    <!-- TODO: Replace this with your title -->
+    <title>ROEL CRODUA Page</title>  
+    <!-- 
+			TODO: Add Bootstrap CSS link tag from: 
+      https://getbootstrap.com/docs/5.3/getting-started/introduction/
+		-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- 
+			TODO: Add Bootstrap Icons link tag from: 
+			https://icons.getbootstrap.com/
+			(Remember, the CDN link is towards the bottom of the page!)
+		-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Custom styles (these can extend the default Bootstrap styles) -->
+    <link href="bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  
+   <body class="scroll-top">
+    <!-- TODO: Paste Navbar code and customize links -->  
+     <nav id="navScroll" class="navbar navbar-expand-md  fixed-top navbar-dark bg-dark " >
+       <div class="container-fluid ps-5 pe-5"">
+         <a class="navbar-brand" aria-current="page" href="#">
+           <i class="bi bi-house-door text-center fw-bold fs-2 d-flex"></i>
+         </a>
+         <div class="d-inline-block">
+         <button class="navbar-toggler" 
+                 type="button" 
+                 data-bs-toggle="collapse" 
+                 data-bs-target="#navbarText" 
+                 aria-controls="navbarText" 
+                 aria-expanded="false" 
+                 aria-label="Toggle navigation">
+           <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse nav-underline fw-bold fs-5" id="navbarText">
+           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+             <li class="nav-item">
+               <a class="nav-link" href="#mission-section">Mission</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="#skills-section">Skills</a>
+             </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#carousel-section">Gallery</a>
+              </li>
+             <li class="nav-item">
+               <a class="nav-link" href="#contact-section">Contact</a>
+             </li>
+           </ul>
+         </div>
+         </div>
+       </div>
+     </nav>
+    <!-- Hero section -->
+     <div data-bs-spy="scroll" data-bs-target="#navbarText" data-bs-root-margin="0px 0px" data-bs-smooth-scroll="true" class="bg-body-tertiary rounded-2" tabindex="0" id="bodyScrollspy">
+    <section id="hero-section" >
+      <div class="flip-container">
+        <div class="flipper pt-5 mt-5">
+          <img src="img/business_me.jpg" alt="Avatar" class="front img-fluid img-thumbnail">
+          <img src="img/business_me.jpg" alt="Avatar" class="back img-fluid img-thumbnail">
+        </div>
+      </div>
+      <div class="pt-5">
+        
+      </div>
+        <div class="container pt-5 mt-5">
+          <h1 class="pt-5 mt-5 pb-3">Roel Crodua</h1>
+          <h6>Life can be complicated, but keeping things simple and making sure the people around are smiling</h6>
+          <p class="text-success">Cheers to life's adventures!</p>
+        </div>
+  	</section>
+  	<!-- Mission/Meet-me section -->
+    <section id="mission-section">
+      <div class="container text-center">
+        <h1 class="pt-5 pb-5">Mission</h1>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2">
+          <div class="col">
+            <img src="img/profile.jpg" class="img-fluid rounded" alt="My Profile Picture" id="mission">
+          </div>
+          <div class="col">
+            <h3 class="card-title pb-3 text-success">My Mission In Life</h3>
+              <p class="card-text">"My mission is to blend my passion for technology, love for nature, and commitment to family, creating a simple and cheerful environment." </p>
+              <p>Cheers to embracing life's adventures with a smile!</p>  
+          </div>
+        </div>
+      </div>
+  	</section>
+  
+    <!-- Skills section -->
+    <section id="skills-section">
+      <h1 class="pt-5 text-center">Skills</h1>   
+      <div class="grid text-center row-cols-sm-1 row-cols-md-2 row-cols-lg-4">            
+        <div class="card" >
+          <div class="card-body mt-4 p-0">
+            <h5 class="card-title pb-3">Achievements</h5>
+            <img src="https://cdn2.vectorstock.com/i/1000x1000/87/16/goal-achievement-concept-in-flat-style-vector-7338716.jpg" class="card-img-top" alt="programming languages">
+          </div>
+
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item p-2">Computer Science graduate in Philippines</li>
+            <li class="list-group-item p-2">10 years of tech-job experienced</li>
+            <li class="list-group-item p-2">Proficient in different programming languages either in scripting or object oriented.</li>
+            <li class="list-group-item p-2">Attending ASU as part-time student</li>
+          </ul>
+          
+        </div>
+        <div class="card">
+          <div class="card-body mt-4 p-0">
+            <h5 class="card-title pb-3">Programming Languages</h5>
+            <img src="https://hackanons.com/wp-content/uploads/2020/10/New-Programming-Language.jpg" class="card-img-top" alt="Programming Languages">
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item"><p class="fw-bolder card-header">Scripting Languages:</p> Unix , Perl, XML, XSLT, C++, Omnimark, DTD, Linux
+        </li>
+            <li class="list-group-item"><p class="fw-bolder card-header">Front-end Web Technologies: </p> CSS, HTML5, Javascript, Bootstrap, HTTP, AJAX, TypeScript, Angular </li>
+            <li class="list-group-item"><p class="fw-bolder card-header">Back-end Server Technologies: </p> Java, Tomcat, PostgreSQL, Hibernate, JDBC, Postman, C#, Azure, ASP.net MVC
+        </li>
+          </ul>
+        </div>
+        <div class="card">
+          <div class="card-body mt-4 p-0">
+            <h5 class="card-title pb-3">Strengths</h5>
+            <img src="https://strengthsalchemy.com/wp-content/uploads/2015/03/Strengths_Sign.jpg" class="card-img-top" alt="Strength">
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item p-3">Trustworthy</li>
+            <li class="list-group-item p-3">Reliable</li>
+            <li class="list-group-item p-3">Detail Oriented</li>
+            <li class="list-group-item p-3">Proactive</li>
+            <li class="list-group-item p-3">Organize</li>
+          </ul>
+
+        </div>
+       
+        <div class="card">
+          <div class="card-body mt-4 p-0">
+            <h5 class="card-title pb-3">Career Goal</h5>
+            <img src="https://akm-img-a-in.tosshub.com/businesstoday/images/story/202302/salary_hike-sixteen_nine.png" class="card-img-top" alt="Salary" >
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item p-3">Profecient Software Programmer</li>
+            <li class="list-group-item p-3">Master in Computer Scienceand Software Engineering</li>
+            <li class="list-group-item p-3">Adequate 6-digit Salary</li>
+            <li class="list-group-item p-3">To become Consultant or Subject Matter Expert </li>
+            <li class="list-group-item p-3">To manage a business someday.</li>
+          </ul>
+        </div>
+      </div>
+  	</section>
+
+    <section id="carousel-section">
+      <h1 class="pt-5 text-center">Gallery</h1>
+      <div id="carouselDark" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="5">
+            <img class="d-block w-100" src="https://scontent-mia3-1.xx.fbcdn.net/v/t1.6435-9/31523398_10208996506828111_4356025014936403968_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=4dc865&_nc_ohc=ErgMvzyx0OEAX-12N3l&_nc_oc=AQlVhO3XQ64nQ2pZIUTX5HF9fAOqAlvWbqxVzoUAIegdofH_mbos68KSxsq9PBaSGgKSpjFbxmoYBFStqRBz_EPe&_nc_ht=scontent-mia3-1.xx&oh=00_AfBhW0B4kl69CDxVsW1sYcnNhKb1ebQsL46_YXftDWi8DQ&oe=6600917B" alt="First slide">
+            <div class="carousel-caption d-none d-md-block">
+                    <p class="h3">Hocking Hills Day Hike</p>
+                    <p class="h5">One day hike tour during Spring of 2018 in Ohio.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="5">
+            <img class="d-block w-100" src="https://scontent-mia3-1.xx.fbcdn.net/v/t31.18172-8/22553019_10207926406556273_1146403079162061489_o.jpg?_nc_cat=100&ccb=1-7&_nc_sid=0bb214&_nc_ohc=EXfzawwVet4AX98XXE7&_nc_ht=scontent-mia3-1.xx&oh=00_AfAEzX-IUhdqeJhwzpk2RqHY2VgYrvBjx3_efA0WXOuiaA&oe=66006CCE" alt="Second slide">
+            <div class="carousel-caption d-none d-md-block">
+                    <p class="h3">Ark Encounter - Noah's Ark</p>
+                    <p class="h5">One day tour during Fall of 2017 in Kentucky</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="https://scontent-mia3-2.xx.fbcdn.net/v/t31.18172-8/24059559_10208116895678382_4619671974242531196_o.jpg?_nc_cat=109&ccb=1-7&_nc_sid=4dc865&_nc_ohc=2JdlmjFqTvYAX_ozs7B&_nc_ht=scontent-mia3-2.xx&oh=00_AfAGatLFTAgvblM8T3mcSpev8Hq2Wfz_ezrJKKDMVABUug&oe=660071C3" alt="Third slide">
+            <div class="carousel-caption d-none d-md-block"">
+                    <p class="h3">The Eye in Chicago</p>
+                    <p class="h5">A 2-day tour in downtown Chicago IL during Winter of 2017</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact-section" class="text-center">
+      <div class="container pt-5 pb-3">
+        <h1>Contact</h1>
+        <hr/>
+         <div class="card-body ">
+          <h5 class="card-title">Get in touch</h5>
+          <p class="card-text "><a href="mailto:roelcrodua@yahoo.com" class="card-link link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">roelcrodua@yahoo.com </a>
+            <a href="mailto:rcrodua@asu.edu" class="card-link link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">| rcrodua@asu.edu</a>
+          </p>
+           <p class="card-text ">
+             <div class="text-center row row-cols-1 row-cols-md-3 ">
+               <div class="col">
+               <a href="https://www.facebook.com/roeldcrodua" class="card-link">
+               <i class="bi bi-facebook h1 text-p"></i>
+               </a>
+               </div>
+               <div class="col">
+                <a href="https://www.linkedin.com/in/roeldcrodua" class="card-link ">
+                  <i class="bi bi-linkedin h1"></i>
+                </a>
+               </div>
+               <div class="col">
+                <a href="https://roelcrodua.wordpress.com" class="card-link">
+                  <i class="bi bi-wordpress h1"></i>
+                </a>    
+               </div>
+             </div>
+            </p>
+        </div>
+            <div id="quote-offer-container" class="section-box">
+              <p class="h5 mt-5" id="contact_message">Don’t hesitate to reach out with the contact information above, or send a message using the form.</p>
+            </div>
+        <div id="quote-form-container" class="section-box">
+          <form  action="https://formspree.io/f/xqkrbkdn" method="POST"  id="quote-form">
+            <div class="form-group inline-block">
+              <label for="name" class="form-label mt-4">Full Name
+              <input type="text" class="form-control" id="name" aria-describedby="nameHelp" placeholder="Enter full name" name="name" required>
+                </label>
+            </div>
+            <div class="form-group">
+              <label for="email" class="form-label mt-4">Email address
+              <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email" name="email" required>
+                </label>
+            </div>
+            <div class="form-group">
+              <label for="message" class="form-label mt-4">Your Message
+              <textarea class="form-control" id="message" rows="3" spellcheck="false" data-ms-editor="true" name="message" required"></textarea>
+                </label>
+            </div>
+            <button type="submit" class="btn btn-outline-primary mt-3">Send</button>
+        </form>
+                </form>
+            </div>
+      </div>
+    </section>
+  
+    <!-- Footer section -->
+    <section id="footer-section" class="bg-black bg-gradient">
+      <div class="card-footer p-2 text-center">
+        @ <script>document.write(new Date().getFullYear());</script> | Roel Crodua
+      </div>
+    </section>
+     </div>
+    <!-- 
+  		TODO: Paste Bootstrap JavaScript script tag from:
+      https://getbootstrap.com/docs/5.3/getting-started/introduction/
+  	-->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
