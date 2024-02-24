@@ -13,7 +13,7 @@ Let’s get started! For this part of your Portfolio Project, you’ll be focuse
 - Remember, we call this the “hero” section because it includes a “hero image”, which is just tech lingo for a large banner image that is prominently placed, and typically takes up the full width of the webpage.
 - Should have a large background image that spans 100% of the page’s width.
 - Should include a centered, circular headshot image with a border.
-- Should include a centered <h1> with your name.
+- Should include a centered h1 tag with your name.
 - Should include a centered tagline.
 - All elements in the hero section (including the headshot image) should be sized responsively across different screen resolutions.
 - All text should be readable against the background image.
