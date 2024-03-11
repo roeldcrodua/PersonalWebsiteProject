@@ -54,3 +54,11 @@ Let’s get started! For this part of your Portfolio Project, you’ll be focuse
 - The carousel should have indicators, controls, and captions.
 - Each carousel item should have a uniform size and width.
 
+## Mobile View (Responsive Designed)
+![mobile](https://github.com/roeldcrodua/PersonalWebsiteProject/assets/65931708/57807f42-6551-4d36-b9cb-b42aab6bc678)
+
+## Tablet View (Responsive Designed)
+![ipad](https://github.com/roeldcrodua/PersonalWebsiteProject/assets/65931708/2d881db9-e995-459d-86f5-7f0305e37695)
+
+## Desktop View (Responsive Designed)
+![desktop](https://github.com/roeldcrodua/PersonalWebsiteProject/assets/65931708/11881cc6-5488-4bcb-a675-086c095b299e)
